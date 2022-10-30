@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 
 
 def ltf2sent(ltf_str):
+    print("TESTING") 
     doc_tokens = load_ltf(ltf_str.encode('utf-8'))
 
     all_sents = []
