@@ -14,6 +14,7 @@ def ltf2sent(ltf_str):
         for token in sent:
             t_text = token[0]
             print(token)
+            print(len(token))
             if not t_text.strip():
                 continue
             if t_text is None:
